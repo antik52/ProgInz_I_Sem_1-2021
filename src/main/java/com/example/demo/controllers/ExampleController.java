@@ -16,6 +16,13 @@ public class ExampleController {
 		return "example-page";//tiks paradita lapa example-page.html
 	}
 	
+	@GetMapping("/example2") //url -> localhost:8080/example2
+	public String example2Controller() 
+	{
+		System.out.println("Tikai testesanai");
+		return "example-page";//tiks paradita lapa example-page.html
+	}
+	
 	// 1. kontrolieru funkcija, kas padod zinu no java html failam
 	@GetMapping("/example1") //url -> localhost:8080/example
 	public String getExample1Controller(Model model) 
