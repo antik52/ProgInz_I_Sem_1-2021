@@ -16,7 +16,7 @@ public class ExampleController {
 		return "example-page";//tiks paradita lapa example-page.html
 	}
 	
-	@GetMapping("/example2") //url -> localhost:8080/example2
+	@GetMapping("/exampleGit") //url -> localhost:8080/exampleGit
 	public String example2Controller() 
 	{
 		System.out.println("Tikai testesanai");
